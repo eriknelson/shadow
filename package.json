@@ -1,0 +1,36 @@
+{
+  "name": "shadow",
+  "version": "0.1.0",
+  "description": "A lounge (and shout) based IRC client written with typescript + react",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./build/test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eriknelson/shadow.git"
+  },
+  "keywords": [
+    "irc",
+    "client",
+    "chat",
+    "server"
+  ],
+  "author": "Erik Nelson <erik@nsk.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eriknelson/shadow/issues"
+  },
+  "homepage": "https://github.com/eriknelson/shadow#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3",
+    "proxyquire": "^1.7.9",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
